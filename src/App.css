@@ -1,0 +1,87 @@
+body {
+    background-color: #efefef;
+}
+
+.base {
+    justify-content: center;
+}
+
+.main_card {
+    height: 70vh;
+    /*width: 75vw;*/
+    /*margin: auto;*/
+    margin: 15vh auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 3px;
+    /*overflow-x: hidden;*/
+    /*padding: 10px;*/
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+div[class*="student_"] {
+    border-bottom: 3px solid #efefef;
+    padding-top: 10px;
+}
+
+.search_fields {
+    padding: 10px 10px 0 10px;
+}
+
+.profile_photo {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 0, rgba(0, 0, 0, 0.2) 0 0 1px 0;
+    width: 75%;
+    margin: 8%;
+    /*border-color: #676767;*/
+    /*border-width: 2px;*/
+}
+
+.card_content {
+    /*padding: 10px;*/
+}
+
+.name_title {
+    font-size: 200%;
+    font-weight: 900;
+    margin: 0;
+}
+
+.expand_button {
+    font-size: 150%;
+    font-weight: 900;
+    color: #9b9b9b;
+    border: none;
+    background-color: white;
+}
+
+.detailed_info {
+    list-style-type: none;
+}
+
+.detailed_grades {
+    padding-top: 20px;
+}
+
+.tags_field {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.tags_input, .detailed_info {
+    padding: 0 0 0 20px;
+}
+
+.tags_input {
+    padding-bottom: 10px;
+}
+
+.tag {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+    background-color: #e0e0e0;
+}
