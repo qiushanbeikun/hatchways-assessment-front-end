@@ -149,7 +149,7 @@ function InfoCard(props) {
                                     {(showGrades) && (
                                         <div className="detailed_grades">
                                             {each.grades.map((grade, index) =>
-                                                <li>Test {index}: &nbsp;&nbsp;&nbsp;&nbsp;{grade}%</li>)}
+                                                <li>Test {index+1}: &nbsp;&nbsp;&nbsp;&nbsp;{grade}%</li>)}
                                         </div>
                                     )}
                                 </ul>
